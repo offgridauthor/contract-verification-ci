@@ -103,14 +103,14 @@ jobs:
           # URL used to reference the bytecode verification
           WORKFLOW_URL: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           # Address of the contract to upgrade
-          ADDRESS: "0x96F2B948d40006d9BaF546Ae507A7f27702128C1"
+          ADDRESS: "0x46784b78b69b2775c8D9AEfA7E9C02D22B70B671"
           # Upgradeability owner
-          OWNER: "0xE3D450F1C50757fFB2b5ddE03A1A0d7Bc32F0153"
+          OWNER: "0x6084fBE2Aa96Bb131D6Bc7Bd3BE786882cfA250F"
           # Use dev environment instead of production
           DEFENDER_ADMIN_API_URL: "https://9ybn7i3oe4.execute-api.us-east-2.amazonaws.com/dev/"
           DEFENDER_ADMIN_POOL_ID: "us-east-2_1jXMfcFAa"
           DEFENDER_ADMIN_POOL_CLIENT_ID: "4osojg8pmt29f4blrpknrc8i9v"
           # API keys to Defender
-          DEFENDER_API_KEY: "${{ secrets.DEFENDER_DEV_API_KEY }}"
-          DEFENDER_API_SECRET: "${{ secrets.DEFENDER_DEV_API_SECRET }}"
+          DEFENDER_API_KEY: "${{ secrets.DEFENDER_API_KEY }}"
+          DEFENDER_API_SECRET: "${{ secrets.DEFENDER_API_SECRET }}"
           
