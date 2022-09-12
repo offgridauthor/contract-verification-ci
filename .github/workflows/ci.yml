@@ -107,9 +107,12 @@ jobs:
           # Upgradeability owner
           OWNER: "0x6084fBE2Aa96Bb131D6Bc7Bd3BE786882cfA250F"
           # Use dev environment instead of production
-          DEFENDER_ADMIN_API_URL: "https://9ybn7i3oe4.execute-api.us-east-2.amazonaws.com/dev/"
-          DEFENDER_ADMIN_POOL_ID: "us-east-2_1jXMfcFAa"
-          DEFENDER_ADMIN_POOL_CLIENT_ID: "4osojg8pmt29f4blrpknrc8i9v"
+          #DEFENDER_ADMIN_API_URL: "https://9ybn7i3oe4.execute-api.us-east-2.amazonaws.com/dev/"
+          
+          #DEFENDER_ADMIN_POOL_ID: "us-east-2_1jXMfcFAa"
+          ##DEFENDER_ADMIN_POOL_ID: "us-west-2_94f3puJWv"
+          #DEFENDER_ADMIN_POOL_CLIENT_ID: "4osojg8pmt29f4blrpknrc8i9v"
+          ##DEFENDER_ADMIN_POOL_CLIENT_ID: "40e58hbc7pktmnp9i26hh5nsav"
           # API keys to Defender
           DEFENDER_API_KEY: "${{ secrets.DEFENDER_API_KEY }}"
           DEFENDER_API_SECRET: "${{ secrets.DEFENDER_API_SECRET }}"
